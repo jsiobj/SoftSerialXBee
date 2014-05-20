@@ -15,7 +15,7 @@ void xbeePrintConfig() {
   
   Serial.println(F("XBee config Test Program"));
 
-sre  Serial.print(F("Getting in CMD mode"));
+  Serial.print(F("Getting in CMD mode"));
   while(!bCmdMode) {
     Serial.print(F("."));
     delay(1200);
